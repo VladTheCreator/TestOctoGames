@@ -1,0 +1,64 @@
+; English <en> to Japanese (Japan) <ja-JP> localization document for `Bits` naninovel script
+
+# c889b663
+; You spend the night inside the wagon.
+
+# 3217aa2c
+; When you wake up it's already noon. The wagon is so comfy you can't force yourself to get out...[i] Wait, it is moving!
+
+# eadc3845
+; While you were sleeping the wagon took off and now you're in the canyon.
+
+# da8edaca
+; You storm into the inn starling the folks inside. Your disgusting appearance and creepy behavior makes them stay away and you rest till the morning.
+
+# e9019eea
+; The next day, however, you're thrown away from the town.
+
+# c6e62633
+; The town is no longer available, but the journey continues!
+
+# 8534c1e5
+; @toast "Forest and lake are now available!"
+
+# 5049f5d8
+; @choice "That wagon looks comfy. Sneak inside." goto:.Wagon
+
+# 4283ac15
+; @choice "Just break into inn and sleep." goto:.Inn
+
+# 787bc049
+;     You dive into the lake.[spawn ShakeCamera]
+
+# 7db6f932
+;     ...
+
+# 244d7ce4
+;     The fungus vibrations are repelling the water![i] You can actually walk on the water!
+
+# 4e359ac1
+;     @choice "Cross the lake."
+
+# d2fc537f
+;     You start running.
+
+# 67c36a73
+;     Water feels nice.
+
+# b4955b92
+;     Splash.
+
+# 7db6f932
+;     ...
+
+# 499cf0e8
+;     Am I going down?[i] The fungus repelling effect is wearing off! Am I going to drown?
+
+# 6c58d375
+;     @choice F do:@title play:false
+
+# c87aa524
+;     The lake is huge. How do I cross it?
+
+# f0625003
+;     No idea... Maybe try going somewhere else for now?

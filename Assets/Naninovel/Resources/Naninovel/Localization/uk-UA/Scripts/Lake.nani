@@ -1,0 +1,7 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Lake` naninovel script
+
+# 81f84950
+; Shield is floating above the river
+
+# 6b163c2e
+; @choice "Take the shield" set:haveShield="true"

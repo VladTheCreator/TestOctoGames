@@ -1,0 +1,27 @@
+@input name summary:"Choose your name."
+@stop
+@bgm Theme volume:0.1
+@printer MyNewPrinter
+@showUI OpenQuestLog
+@showUI MapButtonUI
+@set forestAvailable=true
+@set lakeAvailable=false
+@set haveShield=false
+@set ravenGetsShield=false
+@set nonaGetsShield=false
+@set playerGetsShield=false
+@set returnedNoShield=false
+@set introInterrupted=true
+#Dialog
+@back Forest
+@char lord.normal
+Raven: Hello {name}!
+Raven: I want to ask you for a favor talk to my sister Nona. She went to town and never returned to the forest.
+@choice "I'll get right to it"
+@stop
+#LogUpdate
+@clickSound
+@set townAvailable=true
+@set findNonaTownEntry=true
+@set introInterrupted=false
+@goto Map

@@ -1,0 +1,32 @@
+@showUI MapButtonUI
+@showUI OpenQuestLog
+@back Forest
+@if introInterrupted==true
+@goto Intro.Dialog
+@elseif ravenGetsShield
+@char lord.normal
+Raven: I am grateful to you for resolving our dispute
+@char lord.pleased
+@elseif nonaGetsShield
+@char lord.sad
+Raven: I am not in a mood for chating
+Raven: I think it was a mistake asking you for a favour
+
+@elseif playerGetsShield
+@char lord.angry
+@spawn ShakeCamera params:,0,0.07,,0.1 
+Get out of the forest!
+@despawn ShakeCamera
+@goto Map
+@elseif haveShield
+@goto ForestCharChoice
+@else
+@char lord.normal
+Raven: Did you talk to my sister. Why is she not with you?
+@choice "I'll get her" 
+@stop
+@clickSound
+@clearChoices
+@goto Map
+@endif
+@goto Map

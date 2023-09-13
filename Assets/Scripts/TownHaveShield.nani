@@ -1,0 +1,7 @@
+@back Town
+@set returnToNonaDone=true
+Hmm... wierd there is no one here, Nona said she would wait for me.
+She must have returned to the forest without me
+@set lookForNonaInTheForest=true
+@goto Map
+@stop

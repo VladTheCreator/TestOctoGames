@@ -1,0 +1,13 @@
+; English <en> to Japanese (Japan) <ja-JP> localization document for `Intro` naninovel script
+
+# 81cca336
+; @input name summary:"Choose your name."
+
+# 146deee2
+; Hello {name}!
+
+# ec8b857a
+; I want to ask you for a favor talk to my sister Nona. She went to town and never returned to the forest.
+
+# b9abab0c
+; @choice "I'll get right to it" goto:Map

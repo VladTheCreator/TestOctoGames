@@ -1,0 +1,37 @@
+; English <en> to Japanese (Japan) <ja-JP> localization document for `Forest` naninovel script
+
+# 30f37a47
+; You stumble upon a suspiciously looking mushroom. It's glowing green and vibrating.[skipInput]
+
+# eab6e8ed
+; @choice "Snack time!" goto:.Snack
+
+# 411ca29
+; @choice "Kick the mushroom." goto:.Kick
+
+# b426921
+; You take a bite.[spawn DigitalGlitch] It tastes like shrimp and continues vibrating inside your mouth.[i] You swallow.[i][spawn ShakeCamera params:,0,,,0.01] It continues vibrating in your stomach and makes you feel energized.
+
+# 2f2b195c
+; @choice "Take another bite."
+
+# 716b0c8e
+; You can't stop yourself from finishing the treat.
+
+# 92e1bbf3
+; You feel the fungus vibrations inside you. The whole body is vibrating and you're heating!
+
+# 3fb39a38
+; Hurry to the lake, cool it off!
+
+# d366b23
+; Mushroom explodes covering you in glowing sticky spores accompanied by atrocious odor.
+
+# 201874b
+; The odor lures local bees.[i] They are killing bees, actually.
+
+# 80816a63
+; F?
+
+# 6c58d375
+; @choice F do:@title play:false

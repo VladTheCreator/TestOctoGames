@@ -1,0 +1,46 @@
+; English <en> to Japanese (Japan) <ja-JP> localization document for `TownFirstTime` naninovel script
+
+# 995f5e01
+; Hello stranger, how can I help?
+
+# e54f17a2
+; @choice "You brother is looking for you!"
+
+# d1e08e45
+; Ah, that snob never much liked to engage in human games.
+
+# 69e769e8
+; @choice "What games? Sign me up!" goto:.Positive
+
+# 1839903f
+; @choice "We need to return to the forest" goto:.Negative
+
+# cf266656
+; Well, I'm glad you intrested, here I'll show you
+
+# d74bf901
+; @choice "Let's play" goto:.Minigame
+
+# 74900ada
+; Don't be like my brother, lets play a little...
+
+# 84dba2f5
+; @choice "Pff, alright"
+
+# 60e320e9
+; How did you like the game?
+
+# 9fb95aab
+; @choice "It was great!"
+
+# 4f26ab97
+; I willing to go with you now but before...
+
+# 69a7331d
+; could you please bring me the present from the lake goddes, that she left me at her abode?
+
+# c0e96ef5
+; I will be waiting for you here
+
+# c7d5895b
+; @choice "sure..."

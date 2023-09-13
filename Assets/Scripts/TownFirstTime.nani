@@ -1,0 +1,68 @@
+@if returnedNoShield
+@back Town
+@char lady.normal
+Nona: Did you get what I asked you for me?
+@choice "I am on my way" 
+@stop
+@clickSound
+@goto Map
+@else
+@set findNonaTownEntryDone=true
+@back Town
+@char lady.normal
+Nona: Hello stranger, how can I help?
+@choice "You brother is looking for you!"
+@stop
+@clickSound
+Nona: Ah, that snob never much liked to engage in human games.
+@choice "What games? Sign me up!" goto:.Positive
+@choice "We need to return to the forest" goto:.Negative
+@stop
+
+# Positive
+@clickSound
+Nona: Well, I'm glad you intrested, here I'll show you
+@choice "Let's play" goto:.Minigame
+@stop
+
+# Negative
+@clickSound
+Nona: Don't be like my brother, lets play a little...
+@choice "Pff, alright"
+@stop
+@clickSound
+
+#Minigame
+@clickSound
+@minigame
+
+#Aftergame
+@bgm Theme volume:0.1
+@printer MyNewPrinter
+@showUI MapButtonUI
+@showUI OpenQuestLog
+@set introInterrupted=false
+@set recoverLogAfterMinigame=true
+@back Town
+@char lady.smile
+Nona: How did you like the game?
+@choice "It was great!"
+@stop
+@clickSound
+@char lady.lookingaway
+Nona: I willing to go with you now but before...
+Nona: could you please bring me the present from the lake goddes, that she left me at her abode?
+Nona: I will be waiting for you here
+@choice "sure..."
+@clickSound
+@stop
+@set takeShieldEntry=true
+@hideUI MapButtonUI
+@set forestAvailable=true
+@set townAvailable=true
+@set lakeAvailable=true
+@set returnedNoShield=true
+@goto Map
+@endif
+
+

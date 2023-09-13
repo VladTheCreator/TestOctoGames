@@ -1,0 +1,40 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `ForestCharChoice` naninovel script
+
+# 323e5d3
+; Nona: Thank you for getting me this shield, now give it to me
+
+# c7eca643
+; Raven: You always get presents from lake goddes, how about I get it once
+
+# 9d165dd3
+; @choice "Give shield to Nona" goto:.ShieldToNona	
+
+# 9df84da
+; @choice "Give shield to Raven" goto:.ShieldToRaven
+
+# a8ccac68
+; @choice "Keep to your self" goto:.ShieldToYourself
+
+# a9653599
+; Nona: I new you would choose me, after all, it was me, who asked you to get me this shield not Raven.
+
+# 220f4cc2
+; Nona: I will show it to my friends in town.
+
+# 5211fb1c
+; Raven: I hope you are happy
+
+# 7404d2e
+; Raven: Thank you, i'm glad that can see what is fair
+
+# 55c4c425
+; Nona: I hate you all!
+
+# db2bde30
+; Raven: She'll come around, don't worry
+
+# 60c5f6a2
+; Raven: You keeping it?! It belongs to the creatures of forests and lakes, no human should carry it
+
+# 263ab436
+; Nona: You are a thief, we don't want you in our forest

@@ -1,0 +1,28 @@
+; English <en> to Japanese (Japan) <ja-JP> localization document for `Mountain` naninovel script
+
+# 74855df9
+; 	Wha, you want me to climb the damn mountains again?[i] NO WAY.[i] I'M OUT OF HERE![skipInput]
+
+# 5e7bfc59
+; It's getting harder to move.[i] Hate this place. Have to get back to the town.
+
+# 765487e2
+; Should I take the shortcut and roll down the cliff?[skipInput]
+
+# 754e331b
+; @choice "Sure, let's roll!" goto:.Roll
+
+# 92410a69
+; @choice "No. Choose longer, but safe route." goto:.LongRoute
+
+# cc9bc419
+; Yay, no more walking![i] GO![skipInput]
+
+# 5e19701d
+; @choice F do:@title play:false time:4
+
+# 7ee7cdb4
+; Fiiine, let's walk...
+
+# 47784711
+; @choice Step

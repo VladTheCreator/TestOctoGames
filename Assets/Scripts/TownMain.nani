@@ -1,0 +1,27 @@
+#Main
+@showUI OpenQuestLog
+@showUI MapButtonUI
+@if ravenGetsShield
+@back Town
+@char lady.sad
+Nona: Why did you gave it to him...
+@goto Map
+@elseif nonaGetsShield
+@back Town
+@char lady.smile
+Nona: I apreciate you taking my side
+@char lady.lookingaway_smile
+Nona: I liked you the first time I saw you
+@goto Map
+@elseif playerGetsShield
+@back Town
+@char lady.angry
+Nona: Get away from me, before I call guards!
+@goto Map
+
+@elseif haveShield
+@goto TownHaveShield
+@else
+@goto TownFirstTime
+@endif
+@stop

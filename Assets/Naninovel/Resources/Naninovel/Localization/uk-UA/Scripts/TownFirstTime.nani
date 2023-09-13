@@ -1,0 +1,52 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `TownFirstTime` naninovel script
+
+# 51d662d2
+; Nona: Did you get what I asked you for me?
+
+# a9e0f2f4
+; @choice "I am on my way" 
+
+# bcd4105f
+; Nona: Hello stranger, how can I help?
+
+# e54f17a2
+; @choice "You brother is looking for you!"
+
+# 399dc36f
+; Nona: Ah, that snob never much liked to engage in human games.
+
+# 69e769e8
+; @choice "What games? Sign me up!" goto:.Positive
+
+# 1839903f
+; @choice "We need to return to the forest" goto:.Negative
+
+# ba79c5b2
+; Nona: Well, I'm glad you intrested, here I'll show you
+
+# d74bf901
+; @choice "Let's play" goto:.Minigame
+
+# 9a168b5b
+; Nona: Don't be like my brother, lets play a little...
+
+# 84dba2f5
+; @choice "Pff, alright"
+
+# 8a3043c
+; Nona: How did you like the game?
+
+# 9fb95aab
+; @choice "It was great!"
+
+# 2420dab3
+; Nona: I willing to go with you now but before...
+
+# 8d26ec8
+; Nona: could you please bring me the present from the lake goddes, that she left me at her abode?
+
+# 218f5eeb
+; Nona: I will be waiting for you here
+
+# c7d5895b
+; @choice "sure..."

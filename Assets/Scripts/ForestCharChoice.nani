@@ -1,0 +1,41 @@
+@set lookForNonaInTheForestDone=true
+@char lord.Left
+@char lady.Right
+Nona: Thank you for getting me this shield, now give it to me
+Raven: You always get presents from lake goddes, how about I get it once
+@choice "Give shield to Nona" goto:.ShieldToNona	
+@choice "Give shield to Raven" goto:.ShieldToRaven
+@choice "Keep to your self" goto:.ShieldToYourself
+@stop
+
+#ShieldToNona
+@clickSound
+@char lady.RightSmile
+@char lord.LeftSad
+@set NonaGetsShield="true"
+Nona: I new you would choose me, after all, it was me, who asked you to get me this shield not Raven.
+Nona: I will show it to my friends in town.
+@hide lady
+Raven: I hope you are happy
+@goto Map
+
+
+#ShieldToRaven
+@clickSound
+@char lady.RightSad
+@char lord.LeftSmile
+@set RavenGetsShield="true"
+Raven: Thank you, i'm glad that can see what is fair
+Nona: I hate you all!
+@hide lady
+Raven: She'll come around, don't worry
+@goto Map
+
+#ShieldToYourself
+@clickSound
+@char lady.RightAngry
+@char lord.LeftAngry
+@set PlayerGetsShield="true"
+Raven: You keeping it?! It belongs to the creatures of forests and lakes, no human should carry it
+Nona: You are a thief, we don't want you in our forest
+@goto Map

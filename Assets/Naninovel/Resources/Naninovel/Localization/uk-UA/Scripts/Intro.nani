@@ -1,0 +1,13 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Intro` naninovel script
+
+# 81cca336
+; @input name summary:"Choose your name."
+
+# f6ea5a63
+; Raven: Hello {name}!
+
+# 526453f2
+; Raven: I want to ask you for a favor talk to my sister Nona. She went to town and never returned to the forest.
+
+# c617656c
+; @choice "I'll get right to it"
